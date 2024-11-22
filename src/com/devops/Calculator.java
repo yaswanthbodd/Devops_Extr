@@ -13,16 +13,16 @@ public class Calculator {
 				System.out.println("Addition of "+a+" + "+b+" : "+result);
 				break;
 		case '-' : result=a-b;
-				System.out.println("Addition of "+a+" - "+b+" : "+result);
+				System.out.println("Subtraction of "+a+" - "+b+" : "+result);
 				break;
 		case '*' : result=a*b;
-				System.out.println("Addition of "+a+" * "+b+" : "+result);
+				System.out.println("Multiplication of "+a+" * "+b+" : "+result);
 				break;
 		case '%' : result=a%b;
-				System.out.println("Addition of "+a+" % "+b+" : "+result);
+				System.out.println("Modules of "+a+" % "+b+" : "+result);
 				break;
 		case '/' : result=a/b;
-				System.out.println("Addition of "+a+" / "+b+" : "+result);
+				System.out.println("Division of "+a+" / "+b+" : "+result);
 				break;
 		}
 	}
